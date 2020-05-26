@@ -1,0 +1,33 @@
+#+TITLE: VR Algorave on Cyber Yacht
+
+On April 25th [[http://www.violettapostnova.com/][Violetta Postnova]] and I performed on the [[https://hubs.mozilla.com/gjs2PEC/uxr-cyber-yacht][Cyber Yacht]] in WebVR space for the first time.
+We were live-coding: Violetta was doing the graphics, and I was responsible for the music.
+
+Violetta used [[https://hydra-editor.glitch.me][Hydra]] video synthesizer for this performance.
+
+A couple of days before the party [[https://twitter.com/_ojack_][Olivia Jack]] posted a [[https://twitter.com/hydra_patterns/status/1253338101683912706][tweet]]
+with a sample of code for using video and image in Hydra.
+So Violetta decided to use 8 videos as an input to the synthesizer.
+During the performance she modulated the video with oscillators and noise and added a couple effects.
+
+Her VJ set received many positive comments during and after the performance.
+
+You can check out the recording of her visuals:
+#+BEGIN_figure
+#+HTML: <video controls><source src="https://os.ya.codes/ya.codes/2020-04-25-cyber-yacht/video/hydra.mp4" type="video/mp4"><p>Your browser does not support the video tag.</p></video>
+#+HTML: <figcaption>Violetta is live-coding with Hydra</figcaption>
+#+END_figure
+
+I live-coded music using [[https://tidalcycles.org][TidalCycles]].
+
+Before the performance, I've collected a library of samples and sample loops found on my hard drive. This time my preference fell on aggressive and atonal sounds.
+
+I've also updated my [[https://github.com/yacodes/2020-04-25-cyber-yacht/blob/master/Boot.hs][configuration]] for TidalCycles.
+This new configuration included shortcuts of functions that I use more often than others and a couple of new useful functions for working with sample loops.
+
+I've loaded all the final code and configuration for this performance to [[https://github.com/yacodes/2020-04-25-cyber-yacht][Github]].
+
+#+BEGIN_figure
+#+HTML: <video controls><source src="https://os.ya.codes/ya.codes/2020-04-25-cyber-yacht/video/tc.mp4" type="video/mp4"><p>Your browser does not support the video tag.</p></video>
+#+HTML: <figcaption>I am live-coding beats with TidalCycles</figcaption>
+#+END_figure

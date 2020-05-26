@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Iosevka Etoile";
+  font-display: swap;
+  src: local("Iosevka Etoile"),
+       url(/fonts/iosevka-etoile-regular.woff2) format('woff2'),
+       url(/fonts/iosevka-etoile-regular.woff) format('woff');
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  background-color: #fff;
+  max-width: 784px;
+  padding: 32px 8px 60px;
+  font-family: "Iosevka Etoile", monospace;
+  font-size: 18px;
+  line-height: 1.35;
+}
+a {
+  color: #000;
+  transition: text-decoration-color 0.3s ease 0s, background-color 0.3s ease 0s;
+  will-change: text-decoration-color, background-color;
+}
+a:focus,
+a:active {
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration-color: transparent;
+}
+header {
+  margin-bottom: 32px;
+}
+strong {
+  font-weight: normal;
+}
+main > ul, main > li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+main > li {
+  margin-bottom: 6px;
+}
+body > header {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 160px;
+}
+body > header img {
+  max-width: 100%;
+  margin-top: -112px;
+  filter: grayscale(1);
+  transition: filter 0.3s ease 0s;
+  will-change: filter;
+}
+body > headera:hover img {
+  filter: grayscale(0);
+}
+figure {
+  margin: 12px 0 40px;
+}
+figure video {
+  max-width: 100%;
+  display: block;
+  width: 100%;
+  outline: none;
+}
+figcaption {
+  margin: 12px 0 0;
+  text-align: center;
+}
+figure img {
+  max-width: 100%;
+  display: block;
+}
+pre {
+  overflow: scroll;
+  max-width: 100%;
+  max-height: 512px;
+  background-color: #171615;
+  padding: 6px 8px;
+  color: #fff;
+  font-size: 14px;
+}
