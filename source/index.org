@@ -1,0 +1,25 @@
+#+TITLE: Aleksandr Yakunichev
+#+AUTHOR: Aleksandr Yakunichev
+#+EMAIL: hi@ya.codes
+
+* Software Developer & Sound Artist
+** About
+Hi! My name is Aleksandr Yakunichev. I am a software developer and a sound artist. I live in Moscow, Russia. I organize music and art events on Facebook. If you wanna see some of my performances, you can find recordings on Youtube. On Twitter, I share my thoughts and small snippets of code and music. You can find all my code at Github. If you want to work together, write to me at hi@ya.codes.
+*** Education
+**** 2019: SoundArtist.ru
+**** 2015: Moscow Power Engineering Institute, B.S. Information Security
+**** 2012: Moscow State College of Information Technology, B.S. Information Security
+*** Software Development
+**** 2020: Setka Editor
+**** 2018: Setka Workflow
+**** 2015: Park Gorkogo
+**** 2015: Novaya Gazeta
+**** 2015: Spid Center
+**** 2015: Stridemag https://stridemag.ru/
+**** ???
+*** Workshops / Courses
+**** 2020: Hydra Workshop
+**** 2020: TidalCycles Workshop
+**** 2018: Javascript & React Course for Moscoding School
+*** Live Performances
+*** Other
